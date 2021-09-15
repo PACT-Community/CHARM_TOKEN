@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  tester:
+      image: trailofbits/eth-security-toolbox
+      entrypoint: 'sleep 10000'
+      volumes: 
+        - ../PactContracts/contracts/:/src
+
+
+  node:
+    build: .
+    image: solc-build-util
+    command: 'ganache-cli --gasLimit 12530149 --mnemonic "p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b p2pb2b" --host 0.0.0.0'
+    volumes:
+      - .:/app
+    # ports: 
+    #   - "127.0.0.1:8545:8545"
+

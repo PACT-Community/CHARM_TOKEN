@@ -1,0 +1,35 @@
+{
+  "name": "CHARM_TOKEN",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Erik Fergison",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "bignumber.js": "8.0.1",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "solparse": "^2.2.8",
+    "truffle-plugin-verify": "^0.5.11"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@nomiclabs/buidler": "^1.4.8",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "big-number": "^2.0.0",
+    "bip39": "^3.0.3",
+    "bn.js": "^5.2.0",
+    "dotenv": "^10.0.0",
+    "eth-gas-reporter": "^0.2.22",
+    "ethereumjs-abi": "^0.6.8",
+    "ethereumjs-utils": "^5.2.5",
+    "ethereumjs-wallet": "^1.0.1",
+    "openzeppelin-solidity": "^3.2.0",
+    "save-dev": "0.0.1-security",
+    "solc": "^0.7.3",
+    "truffle": "^5.3.0",
+    "truffle-flattener": "^1.5.0"
+  }
+}
